@@ -73,3 +73,24 @@ aside > p {
 .block-paragraphe--center{
     text-align: center;
 }
+
+.section-produit {
+    background-color: white;
+}
+
+.section-produit h3 {
+    color: black;
+    padding: 1.2em 0;
+}
+
+.section-produit a {
+    background-color: #EEEEEE;
+    color: darkred;
+    text-transform: uppercase;
+    border-radius: 1em;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 0.3em;
+    display: block;
+    margin: 0.3em 0;
+}
