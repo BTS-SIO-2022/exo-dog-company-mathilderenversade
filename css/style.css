@@ -123,18 +123,23 @@ button {
 }
 
 .section-block-poduit article {
-    width: 26%;
+    width: 40%;
     border: 2px solid black;
     padding: 0.8em;
     /* Pour afficher les blocs sur une seule ligne une des solutions est de modifier la propriété display et d'y mettre la valeur inline-block */
-    display: inline-block;
+    /*display: inline-block*/;
 }
 
-.section-block-poduit > article > img {
+.section-block-poduit article img {
     width: 100%;
 }
 
 .section-block-poduit article p {
     text-align: center;
     padding: 1.2em 0;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
 }
