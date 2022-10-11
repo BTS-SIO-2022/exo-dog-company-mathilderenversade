@@ -143,3 +143,24 @@ button {
     display: flex;
     justify-content: space-around;
 }
+
+/* Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou la largeur de la zone d'affichage (viewport) par exemple). documentation : https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries */
+
+/* Pour mémo les breakpoints les plus communs pour les écrans : 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media screen and (min-width:480px) and (max-width:650px) {
+
+    #flex {
+        display: block;
+    }
+
+    #flex article {
+        width: 80%;
+    } 
+}
+
