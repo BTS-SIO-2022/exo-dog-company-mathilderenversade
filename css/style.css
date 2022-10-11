@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, button, h4 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
@@ -93,4 +93,48 @@ aside > p {
     padding: 0.3em;
     display: block;
     margin: 0.3em 0;
+}
+
+.section-produit a:hover{
+    background-color: #bbbbbb;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.5em 0.8em;
+    border: none;
+}
+
+.section-block-poduit {
+    background-color: white;
+}
+
+.section-block-poduit h3 {
+    color: black;
+    font-size: 1.4em;
+    padding: 1.2em 0;
+}
+
+.section-block-poduit h4 {
+    color: darkred;
+    font-size: 1.4em;
+    margin-top: 1.2em;
+}
+
+.section-block-poduit article {
+    width: 26%;
+    border: 2px solid black;
+    padding: 0.8em;
+    /* Pour afficher les blocs sur une seule ligne une des solutions est de modifier la propriété display et d'y mettre la valeur inline-block */
+    display: inline-block;
+}
+
+.section-block-poduit > article > img {
+    width: 100%;
+}
+
+.section-block-poduit article p {
+    text-align: center;
+    padding: 1.2em 0;
 }
